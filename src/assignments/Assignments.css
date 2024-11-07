@@ -1,0 +1,118 @@
+.assignmentCardA {
+    background-color: #6D7676;
+}
+
+.assignmentsAColumn, .loading {
+    background-color: #3D4343;
+}
+
+.assignmentLinkWrapper {
+    margin-top: 15px;
+    margin-left: 8px;
+    width: fit-content;
+}
+
+.assignmentLink {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    background-color: #3D4343;
+    width: fit-content;
+    border: white 1px solid;
+    padding: 5px 15px 5px 15px;
+    font-family: Arial, monospace;
+    font-size: 20px;
+}
+
+.assignmentLink:hover {
+    background-color: #6D7676;
+    cursor: pointer;
+}
+
+
+
+.assignmentCardA {
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.assignmentCardAInfo {
+    margin: 5px;
+    font-family: Arial, monospace;
+    padding: 5px;
+}
+
+.assignmentsAColumn {
+    height: 1000px;
+    color: white;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    padding-top: 1px;
+    width: 750px;
+    margin: 50px auto 0;
+}
+
+.finishButton {
+    background-color: #3D4343;
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px;
+    width: 75px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.assignmentsDesc {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: #515959;
+}
+
+.assignmentsCardDetails {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    background-color: #515959;
+    font-size: 15px;
+    padding: 0 0 0 0;
+}
+
+.assignmentDetailsRow {
+    border-bottom: 1px solid white;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.assignmentDetailsRowLast {
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.finishButton:hover {
+    background-color: #8e9999;
+    cursor: pointer;
+}
+
+.assignmentLink:disabled, .finishButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.assignmentLink:disabled:hover,
+.finishButton:disabled:hover{
+    cursor: not-allowed;
+}

@@ -1,0 +1,404 @@
+.projectRow {
+    display: flex;
+}
+
+body {
+    background-color: #566060;
+}
+
+.assignmentsColumn, .videoSetsColumn, .labelsColumn, .infoBox, .projectEditForm {
+    background-color: #3D4343;
+}
+
+.newButton, .exportButton, .columnTitle, .projectTitleBox,
+.projectDescBox, .assignmentCard, .videoSetCard, .labelCard,
+.cancelButton, .createButton, .editButton, .addAssigneeButton,
+.labelDeleteButton, .videoSetDeleteButton, .assignmentDeleteButton,
+.editProjectButton{
+    background-color: #6D7676;
+}
+
+.assignmentsColumn, .videoSetsColumn, .labelsColumn {
+    color: white;
+    margin: 1%;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+}
+
+.newButton, .addAssigneeButton, .editButton, .exportButton, .createButton, .cancelButton {
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.newButton:hover, .editButton:hover, .exportButton:hover,
+.createButton:hover, .cancelButton:hover, .addAssigneeButton:hover {
+    cursor: pointer;
+    background-color: #8e9999;
+}
+
+.columnTitle {
+    border-radius: 15px;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    align-self: center;
+}
+
+.columnTitleText {
+    margin: 10px;
+    font-family: Arial, monospace;
+    font-size: 33px;
+}
+
+.assignmentsColumn, .videoSetsColumn {
+    flex: 40%;
+}
+
+.labelsColumn {
+    flex: 20%;
+}
+
+.assignmentsColumn, .videoSetsColumn, .labelsColumn {
+    height: 1000px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: auto;
+}
+
+.infoBox {
+    color: white;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    width: 50%;
+    padding: 1px;
+    margin: 0 auto 0;
+}
+
+.projectTitle, .projectDesc {
+    margin: 5px;
+}
+
+.projectDesc {
+    font-size: 20px;
+}
+
+.projectTitle {
+    font-size: 30px;
+}
+
+.projectTitleBox, .projectDescBox {
+    border-radius: 8px;
+    padding: 1px;
+    margin: 10px;
+    align-self: center;
+    overflow-wrap: break-word;
+}
+
+.projectTitleBox {
+    text-align: center;
+}
+
+.assignmentCard, .videoSetCard, .labelCard {
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.exportButton, .editButton {
+    margin: 10px 1px 1px;
+}
+
+.assignmentCardInfo, .videoSetCardInfo, .labelCardInfo {
+    margin: 5px;
+    overflow-wrap: break-word;
+}
+
+.assignmentCardDesc {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    background-color: #515959;
+}
+
+.assignmentCardDetails {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    background-color: #515959;
+    font-size: 13px;
+}
+
+.smallerText {
+    font-size: 13px;
+}
+
+#filterBox {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.filterBoxWrapper {
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+#finishedCheckbox {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.filterBoxLabel {
+    margin-left: 15px;
+}
+
+.detailsRow {
+    border-bottom: 1px solid white;
+    padding: 5px 4px;
+}
+
+.detailsRowLast {
+    padding: 5px 4px;
+}
+
+.videoSetCardInfo {
+    overflow-wrap: break-word;
+    padding-right: 25px;
+}
+
+.labelCard, .videoSetCard, .assignmentCard {
+}
+
+.labelCardInfo, .assignmentCardDesc {
+}
+
+.labelDeleteButtonWrapper {
+}
+
+.labelDeleteButton, .videoSetDeleteButton, .assignmentDeleteButton {
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px;
+    width: 40px;
+    height: 28px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.labelDeleteButton:hover, .videoSetDeleteButton:hover,
+.assignmentDeleteButton:hover {
+    background-color: #b52a2a;
+    cursor: pointer;
+}
+
+.videoSetDeleteButtonWrapper {
+    flex: 50%;
+    margin-left: 5px;
+    padding: 1px;
+}
+
+.iconHoverButton:hover .icon-no-fill,
+.iconHoverButton .icon-fill {
+    display: none;
+}
+
+.iconHoverButton:hover .icon-fill {
+    display: inline;
+}
+
+.assignmentCardTitle {
+    margin: 5px;
+    font-size: 23px;
+    overflow-wrap: break-word;
+}
+
+
+.assignmentCardDesc {
+    font-size: 18px;
+    overflow-wrap: break-word;
+}
+
+.assignmentForm, .videoSetForm, .labelForm {
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.createButton, .cancelButton {
+    margin: 10px 1px 1px;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input[type=number] {
+    width: 15%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input[type=color] {
+    width: 80px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.loading {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    font-family: Arial, monospace;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px;
+}
+
+input[type=radio] {
+    width: 10%;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.formText {
+    margin: 5px;
+}
+
+.projectEditForm {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    color: white;
+    width: 50%;
+}
+
+.editProjectButton {
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px 10px;
+}
+
+.editProjectButton:hover {
+    cursor: pointer;
+    background-color: #8e9999;
+}
+
+.descriptionBox {
+    height: 70px;
+    width: 85%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+select {
+    width: 60%;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.colorBox {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.shortCutInput {
+    width: 38px !important;
+    text-transform: capitalize;
+}
+
+.scrollable {
+    overflow-y: auto;
+    height: 800px;
+    margin-top: 15px;
+    -webkit-mask-image: -webkit-gradient(linear, top bottom, right bottom);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    height: 50px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.selectBox {
+    border-radius: 15px;
+}
+
+.assigneeList, .videoSetList {
+    width: 200px;
+    color: black;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.chosenAssignees, .chosenVideoSets{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.chosenAssignee {
+
+}

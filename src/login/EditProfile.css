@@ -1,0 +1,83 @@
+.profileEditForm {
+    display: flex;
+    justify-content: center;
+    background-color: #3D4343;
+    color: white;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    align-self: center;
+    width: 600px;
+    margin: 20px auto;
+    height: 550px;
+    padding-top: 20px;
+}
+
+.profileFormText {
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#newUsername,
+#oldPassword,
+#newPassword,
+#confirmPassword {
+    width: 180px;
+    padding: 5px 8px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.profileButton:hover {
+    cursor: pointer;
+    background-color: #8e9999;
+}
+
+.profileInputLabel {
+    text-align: center;
+}
+
+.profileInputLabelWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.profileInputWrapper {
+    display: flex;
+    vertical-align: middle;
+    height: 60px;
+    width: 300px;
+    margin: 0 auto 0;
+    justify-content: center;
+}
+
+.profileButtonWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.profileButton {
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 10px 20px;
+    background-color: #6D7676;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profileError {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+    text-align: center;
+}

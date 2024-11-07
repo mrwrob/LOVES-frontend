@@ -1,0 +1,9 @@
+.centerText {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    vertical-align: center;
+    font-family: "Times New Roman", Serif, serif;
+    color: darkred;
+    margin-top: 100px;
+}

@@ -1,0 +1,77 @@
+.navWrapper, .logoWrapper {
+    background-color: #3D4343;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    padding: 1px;
+    margin: 10px;
+    flex: 15%;
+    min-width: 160px;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 120px;
+    margin: auto;
+}
+
+.pageHeader {
+    display: flex;
+}
+
+.appTitle {
+    flex: 85%;
+    font-family: "Times New Roman", Serif, serif;
+    /*text-align: center;*/
+    color: white;
+    font-size: 120px;
+    vertical-align: center;
+    background-color: #3D4343;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 7px;
+}
+
+.appTitleText {
+    margin: 1px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav {
+    padding: 10px;
+}
+
+.hiText {
+    color: white;
+    padding: 5px;
+}
+
+.linkButton {
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #6D7676;
+    width: 90%;
+    /*padding: 6px 70% 6px 15px;*/
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.linkButton:hover {
+    cursor: pointer;
+    background-color: #8e9999;
+}
+
+.linkWrapper {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+}

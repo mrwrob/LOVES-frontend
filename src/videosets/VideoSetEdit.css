@@ -1,0 +1,64 @@
+.videoSetEditForm {
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    color: white;
+    width: 50%;
+    padding: 10px 20px 20px;
+    margin: 50px auto 0
+}
+
+.videoSetEditForm, .submitVideoSetButton, .goBackButton {
+    background-color: #3D4343;
+}
+
+.videoSetEditFormTitle {
+    text-align: center;
+}
+
+input[type=number] {
+    width: 50px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.file-uploader {
+    padding: 5px;
+}
+
+.submitVideoSetButton {
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px 5px;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.goBackButton {
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px 5px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.submitVideoSetButton:hover, .goBackButton:hover {
+    background-color: #8e9999;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0 0 10px;
+}

@@ -1,0 +1,226 @@
+table, th, td {
+    border: 1px solid;
+}
+
+body {
+    background-color: #566060;
+}
+
+.newProjectButton, .projectCard {
+    background-color: #6D7676;
+}
+
+.projectForm, .projectsColumn, .loading, .projectDeleteButton {
+    background-color: #3D4343;
+}
+
+.projectsColumn {
+    height: 1000px;
+    color: white;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    padding-top: 1px;
+    width: 750px;
+    margin: 50px auto 0;
+}
+
+.projectDeleteButton {
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px;
+    width: 40px;
+    height: 28px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.projectDeleteButton:hover {
+    background-color: #b52a2a;
+    cursor: pointer;
+}
+
+.projectsDesc {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: #515959;
+}
+
+.projectDetails {
+    border: 1px solid white;
+    border-radius: 8px;
+    overflow-wrap: break-word;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    background-color: #515959;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.projectDetailsRow {
+    border-bottom: 1px solid white;
+    padding: 5px 8px;
+}
+
+.projectDetailsRowLast {
+    padding: 5px 8px;
+}
+
+.columnTitle {
+    border-radius: 15px;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    align-self: center;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.columnTitleText {
+    margin: 10px;
+    font-family: Arial, monospace;
+    font-size: 33px;
+}
+
+.newProjectButton, .createButton, .cancelButton {
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    box-sizing:border-box;
+    padding: 5px 10px;
+}
+
+.newProjectButton:hover, .createButton:hover, .cancelButton:hover {
+    cursor: pointer;
+    background-color: #8e9999;
+}
+
+.projectForm {
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+    color: white;
+    width: 50%;
+}
+
+.formText {
+    margin: 5px;
+}
+
+.loading {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    font-family: Arial, monospace;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.descriptionBox {
+    height: 70px;
+    width: 85%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Arial, monospace;
+
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.projectLinkWrapper {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+
+
+.projectLink {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    background-color: #3D4343;
+    border: white 1px solid;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, monospace;
+    font-size: 20px;
+    width: fit-content;
+    max-width: 90%;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.projectLink:hover {
+    background-color: #6D7676;
+    cursor: pointer;
+}
+
+
+.projectCard {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.projectCardInfo {
+    margin: 5px;
+    font-family: Arial, monospace;
+    padding: 5px;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.scrollableProjectList {
+    overflow-y: auto;
+    height: 850px;
+    margin-top: 15px;
+    -webkit-mask-image: -webkit-gradient(linear, top bottom, right bottom);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    height: 50px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
